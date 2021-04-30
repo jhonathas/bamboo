@@ -130,7 +130,8 @@ defmodule Bamboo.MandrillAdapterTest do
              %{
                "type" => "text/plain",
                "name" => "attachment.txt",
-               "content" => "VGVzdCBBdHRhY2htZW50Cg=="
+               "content" => "VGVzdCBBdHRhY2htZW50Cg==",
+               "content_id" => nil
              }
            ]
   end

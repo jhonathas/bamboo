@@ -124,7 +124,8 @@ defmodule Bamboo.MandrillAdapter do
       %{
         name: attachment.filename,
         type: attachment.content_type,
-        content: Base.encode64(attachment.data)
+        content: Base.encode64(attachment.data),
+        content_id: attachment.content_id
       }
     end)
   end
